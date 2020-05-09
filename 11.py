@@ -9,4 +9,3 @@ while bottles_of_beer > 1:
     print(REFRAIN % (bottles_of_beer, bottles_of_beer,
                      bottles_of_beer - 1))
     bottles_of_beer -= 1
-
