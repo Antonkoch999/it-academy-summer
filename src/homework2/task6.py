@@ -13,7 +13,7 @@ def palindrom(n):
     """
 
     # write your code here
-    copyn = n
+    copy_n = n
     c = 0
     while n != 0:
         b = n % 10
