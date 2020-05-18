@@ -14,7 +14,13 @@ def total_sum(m, n, s):
         'x rubles y kopecks'
     """
     # write your code here
-    return ''  # write return value here
+    # Переводим рубли в копейки
+    m = m * 100
+    # Находим общую сумму копеек
+    n = m + n
+    # Находит сумму количества товара в копейках
+    l = s * n
+    return l // 100, 'rubles', l % 100, 'kopecks'  # write return value here
 
 
 if __name__ == '__main__':

@@ -11,10 +11,14 @@ def fibonacci(n):
     """
 
     # write your code here
-    return ''  # write return value here
+    fib1 = 0
+    fib2 = 1
+    for i in range(1, n):
+        fib1, fib2 = fib2, fib1 + fib2
+    return fib2  # write return value here
 
 
 if __name__ == '__main__':
     # здесь можно сделать ввод из консоли и проверить работу функции
-    n = 0
+    n = 5
     print(fibonacci(n))

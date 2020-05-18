@@ -13,7 +13,16 @@ def palindrom(n):
     """
 
     # write your code here
-    return ''  # write return value here
+    copyn = n
+    c = 0
+    while n != 0:
+        b = n % 10
+        c = c * 10 + b
+        n = n // 10
+    if c == copyn:
+        return True
+    else:
+        return False
 
 
 if __name__ == '__main__':

@@ -14,7 +14,18 @@ def longest_word(str_):
     """
 
     # write your code here
-    return ''  # write return value here
+    # Создаем строку с наиболее частыми знаками препинания
+    punct = ' .,:;-'
+    # Находим и заменяем на ','
+    for el in punct:
+        str_ = str_.replace(str(el), ',')
+    lisst = str_.split(',')
+    index = 0
+    for i in range(1, len(lisst)):
+        # Автоматически будет самое левое(первое найденное) слово.
+        if len(lisst[index]) < len(lisst[i]):
+            index = i
+    return 'Самое длинное слово:', lisst[index]  # write return value here
 
 
 if __name__ == '__main__':
