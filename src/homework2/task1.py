@@ -18,11 +18,11 @@ def total_sum(m, n, s):
     m = m * 100
     # Находим общую сумму копеек
     n = m + n
-    cost = str((n*s) // 100) + ' rubles ' + str((n*s) % 100) + ' rubles'
+    cost = str((n * s) // 100) + ' rubles ' + str((n * s) % 100) + ' kopecks'
     return cost  # write return value here
 
 
 if __name__ == '__main__':
     # здесь можно сделать ввод из консоли и проверить работу функции
-    m, n, s = '', '', ''
+    m, n, s = 756, 65, 34
     print(total_sum(m, n, s))
