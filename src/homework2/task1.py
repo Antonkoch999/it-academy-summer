@@ -14,9 +14,7 @@ def total_sum(m, n, s):
         'x rubles y kopecks'
     """
     # write your code here
-    # Переводим рубли в копейки
     m = m * 100
-    # Находим общую сумму копеек
     n = m + n
     cost = str((n * s) // 100) + ' rubles ' + str((n * s) % 100) + ' kopecks'
     return cost  # write return value here

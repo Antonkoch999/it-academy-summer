@@ -15,8 +15,6 @@ def sub_string(str_):
 
     # write your code here
     newstr = ''
-    # Перебираем элементы строки, если элемента нет, добавляем и если
-    # пробел то удаляем его. Решение подсмотрел в интернете.
     for i in str_:
         if i not in newstr and i != ' ':
             newstr += i

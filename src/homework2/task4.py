@@ -14,19 +14,15 @@ def count_letters(str_):
     # write your code here
     low_number = 0
     up_number = 0
-    # Перебираем элементы, сравниваем,
-    # добавляем при совпадении единицу счетчику
     for i in str_:
         if 'a' <= i <= 'z':
             low_number += 1
-        else:
-            if 'A' <= i <= 'Z':
-                up_number += 1
-    # () не нужны return сам создает кортеж
+        elif 'A' <= i <= 'Z':
+            up_number += 1
     return low_number, up_number  # write return value here
 
 
 if __name__ == '__main__':
     # здесь можно сделать ввод из консоли и проверить работу функции
-    str_ = ''
+    str_ = 'AAAAAAAAAA'
     print(count_letters(str_))
