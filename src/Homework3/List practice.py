@@ -12,7 +12,7 @@
 
 
 def list_practice(str1, str2):
-    str_lst = [i+j for i in str1 for j in str2]
+    str_lst = [i + j for i in str1 for j in str2]
     print(str_lst)
     str_lst1 = str_lst[::2]
     print(str_lst1)

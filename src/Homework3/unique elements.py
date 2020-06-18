@@ -15,5 +15,5 @@ def unique_el(lst):
 
 
 if __name__ == '__main__':
-    lst = [1,2,5,3,7,2,5,9,11]
+    lst = [1, 2, 5, 3, 7, 2, 5, 9, 11]
     print(unique_el(lst))

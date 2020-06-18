@@ -19,4 +19,3 @@ print(len(tpl_one_el))
 for i in tpl_one_el:
     for j in i:
         print(j)
-
