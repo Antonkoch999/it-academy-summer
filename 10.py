@@ -1,3 +1,6 @@
+"""Time, conditionals, from..import, for..else"""
+
+
 from time import localtime
 
 activities = {8: 'Sleeping',

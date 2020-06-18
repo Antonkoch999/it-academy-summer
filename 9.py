@@ -1,3 +1,6 @@
+"""Opening files"""
+
+
 # indent your Python code to put into an email
 import glob
 # glob supports Unix style pathname extensions

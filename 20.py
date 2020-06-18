@@ -1,3 +1,6 @@
+"""Prime numbers sieve w/fancy generators"""
+
+
 import itertools
 
 
