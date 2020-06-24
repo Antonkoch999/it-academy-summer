@@ -14,8 +14,8 @@ def total_sum(m, n, s):
         'x rubles y kopecks'
     """
     # write your code here
-    pen = m * 100 + n
-    cost = str((pen * s) // 100) + ' rub ' + str((pen * s) % 100) + ' kop'
+    p = m * 100 + n
+    cost = str((p * s) // 100) + ' rubles ' + str((p * s) % 100) + ' kopecks'
     return cost  # write return value here
 
 
