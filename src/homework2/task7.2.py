@@ -26,7 +26,6 @@ def pig_it(text):
     return final
 
 
-
 if __name__ == '__main__':
     text = 'O tempora o mores !'
     print(pig_it(text))

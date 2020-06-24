@@ -55,26 +55,3 @@ def tickets(people_lst):
 if __name__ == '__main__':
     people_lst = [25, 25, 25, 25, 25, 100, 50]
     print(tickets(people_lst))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
