@@ -16,8 +16,9 @@ def longest_word(str_):
     # write your code here
     import string
     punct = string.punctuation + ' '
-    for el in punct:
-        str_ = str_.replace(str(el), ',')
+    for el in str_:
+        if el in punct:
+            str_ = str_.replace(str(el), ',')
     lisst = str_.split(',')
     index = 0
     for i in range(1, len(lisst)):
