@@ -1,14 +1,12 @@
-# def name(func):
-#     def wrapper(*args, **kwargs):
-#
-#         res = func(*args, **kwargs)
-#
-#         return res
-#     return wrapper
+"""
+Языки
+Каждый из N школьников некоторой школы знает Mi языков.
+Определите, какие языки знают все школьники и языки,
+которые знает хотя бы один из школьников.
+"""
 
 
 def students(n, m1, m2, m3):
-    # dct = {}
     lst1 = []
     lst2 = []
     lst3 = []
@@ -17,13 +15,13 @@ def students(n, m1, m2, m3):
     lang_lst = []
     for languages in range(m1):
         lst1.append(str(input()))
-        # dct[1] = lst1
+
     for languages in range(m2):
         lst2.append(str(input()))
-        # dct[2] = lst2
+
     for languages in range(m3):
         lst3.append(str(input()))
-        # dct[3] = lst3
+
     lst = lst1 + lst2 + lst3
     for item in lst:
         if item in lst1 and item in lst2 and item in lst3:
