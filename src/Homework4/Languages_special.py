@@ -37,4 +37,3 @@ def students(n, m1, m2, m3):
 if __name__ == '__main__':
     n, m1, m2, m3 = 3, 2, 3, 3
     print(students(n, m1, m2, m3))
-
