@@ -12,14 +12,9 @@ def words(str_):
     str_.splitlines()
     str1 = ''.join(str_)
     lst = str1.split()
-    lst_word = []
-    for word in lst:
-        if len(word) > 1:
-            lst_word.append(word)
-
-    return len(set(lst_word))
+    return len(set(lst))
 
 
 if __name__ == '__main__':
-    str_ = 'asdwdw asdwdw asdwdw  asdwqdqw  b\n    m  asdawdaw a ddasdac  d\n'
+    str_ = 'asdwdw, asdwdw, asdwdw, asdwdw. asdwdw:  asdwqdqw  b\n    m  asdawdaw a ddasdac  d\n'
     print(words(str_))
