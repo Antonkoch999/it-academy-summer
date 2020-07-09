@@ -7,11 +7,8 @@
 
 
 def unique_el(lst):
-    new_lst = []
-    for i in lst:
-        if i not in new_lst:
-            new_lst.append(i)
-    return new_lst
+    dct = {str(el): el for el in lst}
+    return list(dct.values())
 
 
 if __name__ == '__main__':

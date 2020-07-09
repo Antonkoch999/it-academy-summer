@@ -11,21 +11,17 @@
 """
 
 
-def list_practice(str1, str2):
-    str_lst = [i + j for i in str1 for j in str2]
-    print(str_lst)
-    str_lst1 = str_lst[::2]
-    print(str_lst1)
-    int_lst = [str(i) + 'a' for i in range(1, 5)]
-    el = int_lst.pop(1)
-    print(el)
-    print(int_lst)
-    int_lst1 = int_lst[:]
-    int_lst1.append(el)
-    return int_lst1
+str_lst = [i + j for i in 'ab' for j in 'bcd']
+print('Task 2.1:', str_lst)
 
+str_lst1 = str_lst[::2]
+print('Task 2.2:', str_lst1)
 
-if __name__ == '__main__':
-    str1 = 'ab'
-    str2 = 'bcd'
-    print(list_practice(str1, str2))
+int_lst = [i + 'a' for i in '1234']
+print('Task 2.3:', int_lst)
+
+print('Task 2.4:', int_lst.pop(1))
+
+int_lst1 = int_lst[:]
+int_lst1.append('2a')
+print('Task 2.5:', int_lst1)

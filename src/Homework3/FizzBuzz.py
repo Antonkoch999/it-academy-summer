@@ -4,27 +4,23 @@
  кратных и 3 и 5 - FizzBuzz"""
 
 
-def fizzBuzz(int_):
+def fizzBuzz(n):
     # n - количество чисел для цикла
-    lst = []
-    for i in range(1, int_ + 1):
-        if not i % 3 and not i % 5:
+    for i in range(1, n + 1):
+        if not i % 15:
             i = 'FizzBuzz'
-            lst.append(i)
-            continue
-        if not i % 3:
+            print(i)
+        elif not i % 3:
             i = 'Fizz'
-            lst.append(i)
-            continue
-        if not i % 5:
+            print(i)
+        elif not i % 5:
             i = 'Buzz'
-            lst.append(i)
-            continue
+            print(i)
         else:
-            lst.append(i)
-    return lst
+            print(i)
+    return ''
 
 
 if __name__ == '__main__':
-    int_ = int(input())
-    print(fizzBuzz(int_))
+    n = 100
+    print(fizzBuzz(n))
