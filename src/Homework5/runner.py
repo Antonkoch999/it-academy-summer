@@ -28,4 +28,3 @@ def runner(*args):
 runner()
 runner('binary')
 runner('pair_el', 'binary')
-

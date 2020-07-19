@@ -60,7 +60,8 @@ def create_years_rating_name_file():
 
     with open('top250.txt', 'r') as top:
         file_name = open('top250_movies.txt', 'w')
-        name = re.findall(r'[A-Za-z]+\d[A-Za-z]+|[A-Za-z]+\D+[A-Za-z]+|[A-Za-z]+\s', top.read())
+        name = re.findall(r'[A-Za-z]+\d[A-Za-z]+|[A-Za-z]+\D+[A-Za-z]+|[A-Za-z]+\s',
+                          top.read())
         for el in name:
             movie = f'Movie title: {el}\n'
             file_name.write(str(movie))
