@@ -6,15 +6,10 @@
 
 
 def lists_v1(lst1, lst2):
-    counter = 0
-    lst = []
-    for item in lst1:
-        if item in lst2 and item in lst:
-            continue
-        else:
-            lst.append(item)
-            counter += 1
-    return counter
+    lst1 = set(lst1)
+    lst2 = set(lst2)
+    res = lst1.intersection(lst2)
+    return len(res)
 
 
 if __name__ == '__main__':

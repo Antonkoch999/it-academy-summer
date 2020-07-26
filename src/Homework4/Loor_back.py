@@ -6,22 +6,16 @@
 """
 
 
-def evklid(a, b):
-    if a < b:
-        a, b = b, a
-    while a > 0:
-        if b <= 0:
-            break
-        a = a % b
-        if a <= 0:
-            break
-        b = b % a
-    if a > b:
-        return a
-    else:
-        return b
+def evklid(number1, number2):
+
+    while number1 and number2:
+        if number1 > number2:
+            number1 = number1 % number2
+        else:
+            number2 = number2 % number1
+    return number1 + number2
 
 
 if __name__ == '__main__':
-    a, b = 594, 7920
-    print(evklid(a, b))
+    number1, number2 = 50, 130
+    print(evklid(number1, number2))

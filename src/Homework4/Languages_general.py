@@ -8,6 +8,7 @@
 
 def students(student):
     dct = {}
+
     for mi in range(1, student + 1):
         count = int(input('Введите количество языков:'))
         lst = []
@@ -15,44 +16,24 @@ def students(student):
             lst.append(str(input('Введите иностранные языки:')))
             dct[mi] = lst
 
-    list_values = list(dct.values())
-    all_language = []
-    for el in list_values:
-        for lang in el:
-            if lang in all_language:
-                continue
-            else:
-                all_language.append(lang)
+    all_know = set()
+    for value in dct.values():
+        all_know.update(value)
 
-    all_know = []
-    all_know_number = 0
-    for elem in all_language:
-        for key, value in dct.items():
-            if elem not in value:
-                break
-            elif elem in all_know:
-                continue
-            else:
-                all_know_number += 1
-                all_know.append(elem)
-
-    one_know = []
-    one_know_number = 0
-    for elem in all_language:
-        for key, value in dct.items():
-            if elem in one_know:
-                continue
-            elif elem in value:
-                one_know_number += 1
-                one_know.append(elem)
+    sets = []
+    for value in dct.values():
+        sets.append(set(value))
+    one_know = list(set.intersection(*map(set, sets)))
 
     return 'Кол-во языков которые знают все школьники: {}\n' \
            'Список этих языков: {}\n' \
            'Кол-во языков которые знает хотя бы один школьник: {}\n' \
-           'Список этих языков: {}\n'.format(all_know_number, all_know,
-                                             one_know_number, one_know)
+           'Список этих языков: {}\n'.format(one_know,
+                                             len(one_know),
+                                             all_know,
+                                             len(all_know))
 
 
 if __name__ == '__main__':
-    student = 3
+    student = int(input('Введите количество школьников:'))
     print(students(student))
