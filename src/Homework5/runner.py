@@ -13,7 +13,7 @@ from src.func import funcs
 
 
 def runner(*args):
-    lst_method = [el for el in dir(funcs) if '__' not in el]
+    lst_method = [el for el in dir(funcs) if callable(getattr(funcs, el))]
 
     def get_func(arg):
         for el in arg:

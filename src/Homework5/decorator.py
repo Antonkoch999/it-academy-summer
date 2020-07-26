@@ -6,13 +6,13 @@
 
 
 def dec(fun):
-    result = dict()
 
     def wrapper(args):
         print(f'Найти {args} число фибоначи')
-        result[args] = fun(args)
-        print(f'Результат вычисления: {fun(args)}')
-        return f'{result} - Результаты предыдущих выполнений'
+        result = fun(args)
+        with open('results.txt', 'a') as file:
+            file.write(str(result) + '\n')
+        return f'Результат вычисления: {fun(args)}'
 
     return wrapper
 

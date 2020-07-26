@@ -20,20 +20,16 @@ def get_ranges_v_2(lst):
         if not range_:
             if el == lst[-1] or lst[index_ + 1] - el != 1:
                 new_lst.append(str(el))
-                continue
             else:
                 rating_list += f'{str(el)}-'
                 range_ = True
-                continue
+
         else:
             if el == lst[-1] or lst[index_ + 1] - el != 1:
                 rating_list += str(el)
                 new_lst.append(rating_list)
                 rating_list = ''
                 range_ = False
-                continue
-            else:
-                continue
 
     str_ = ', '.join(new_lst)
     return str_

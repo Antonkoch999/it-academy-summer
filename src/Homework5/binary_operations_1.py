@@ -6,19 +6,17 @@
 
 
 def binary(int_):
-    lst = []
-    for degree in range(int_):
-        degree_two = 2 ** degree
-        if degree_two < int_:
-            lst.append(degree_two)
-        else:
-            lst.append(degree_two)
-            break
-    lst1 = [abs(x - int_) for x in lst]
-    index_ = lst1.index(min(lst1))
-    return lst[index_]
+    counter = 0
+
+    while (int_ >> counter) > 1:
+        counter += 1
+
+    if (int_ - (2 ** counter)) < (2 ** (counter + 1) - int_):
+        return 2 ** counter
+    else:
+        return 2 ** (counter + 1)
 
 
 if __name__ == '__main__':
-    int_ = 13
+    int_ = 10
     print(binary(int_))

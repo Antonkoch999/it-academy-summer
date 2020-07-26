@@ -1,0 +1,250 @@
+Movie title: The Shawshank Redemption
+Movie title: The Godfather
+Movie title: The Godfather: Part II
+Movie title: The Dark Knight
+Movie title: Angry Men
+Movie title: Schindler's List
+Movie title: Pulp Fiction
+Movie title: The Lord of the Rings: The Return of the King
+Movie title: Il buono, il brutto, il cattivo
+Movie title: Fight Club
+Movie title: The Lord of the Rings: The Fellowship of the Ring
+Movie title: Forrest Gump
+Movie title: Star Wars: Episode V - The Empire Strikes Back
+Movie title: Inception
+Movie title: The Lord of the Rings: The Two Towers
+Movie title: One Flew Over the Cuckoo's Nest
+Movie title: Goodfellas
+Movie title: The Matrix
+Movie title: Shichinin no samurai
+Movie title: Star Wars
+Movie title: Cidade de Deus
+Movie title: Se7en
+Movie title: The Silence of the Lambs
+Movie title: It's a Wonderful Life
+Movie title: La vita è bella
+Movie title: The Usual Suspects
+Movie title: Léon
+Movie title: Saving Private Ryan
+Movie title: Sen to Chihiro no kamikakushi
+Movie title: Coco
+Movie title: American History X
+Movie title: C'era una volta il West
+Movie title: Interstellar
+Movie title: The Green Mile
+Movie title: Psycho
+Movie title: Casablanca
+Movie title: City Lights
+Movie title: Intouchables
+Movie title: Modern Times
+Movie title: The Pianist
+Movie title: Raiders of the Lost Ark
+Movie title: The Departed
+Movie title: Rear Window
+Movie title: Terminator
+Movie title: Judgment Day
+Movie title: Back to the Future
+Movie title: Whiplash
+Movie title: Gladiator
+Movie title: The Lion King
+Movie title: The Prestige
+Movie title: Memento
+Movie title: Apocalypse Now
+Movie title: Alien
+Movie title: The Great Dictator
+Movie title: Sunset Blvd
+Movie title: Nuovo Cinema Paradiso
+Movie title: Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+Movie title: Das Leben der Anderen
+Movie title: Hotaru no haka
+Movie title: Paths of Glory
+Movie title: Django Unchained
+Movie title: The Shining
+Movie title: WALL·E
+Movie title: American Beauty
+Movie title: Mononoke-hime
+Movie title: The Dark Knight Rises
+Movie title: Blade Runner
+Movie title: Oldeuboi
+Movie title: Witness for the Prosecution
+Movie title: Aliens
+Movie title: Once Upon a Time in America
+Movie title: Das Boot
+Movie title: Dangal
+Movie title: Citizen Kane
+Movie title: Vertigo
+Movie title: North by Northwest
+Movie title: Star Wars: Episode VI - Return of the Jedi
+Movie title: Braveheart
+Movie title: Reservoir Dogs
+Movie title: M 
+Movie title: Requiem for a Dream
+Movie title: Kimi no na wa
+Movie title: Taare Zameen Par
+Movie title: Le fabuleux destin d'Amélie Poulain
+Movie title: A Clockwork Orange
+Movie title: Lawrence of Arabia
+Movie title: Amadeus
+Movie title: Double Indemnity
+Movie title: Eternal Sunshine of the Spotless Mind
+Movie title: Taxi Driver
+Movie title: To Kill a Mockingbird
+Movie title: Full Metal Jacket
+Movie title: A Space Odyssey
+Movie title: Singin' in the Rain
+Movie title: Toy Story
+Movie title: Idiots
+Movie title: The Sting
+Movie title: Toy Story
+Movie title: Inglourious Basterds
+Movie title: Ladri di biciclette
+Movie title: The Kid
+Movie title: Snatch
+Movie title: Monty Python and the Holy Grail
+Movie title: Good Will Hunting
+Movie title: Jagten
+Movie title: Per qualche dollaro in pi
+Movie title: Scarface
+Movie title: L.A. Confidential
+Movie title: The Apartment
+Movie title: Metropolis
+Movie title: Jodaeiye Nader az Simin
+Movie title: Rashômon
+Movie title: Indiana Jones and the Last Crusade
+Movie title: All About Eve
+Movie title: Yôjinb
+Movie title: Babam ve Oglum
+Movie title: Up 
+Movie title: Batman Begins
+Movie title: Some Like It Hot
+Movie title: The Treasure of the Sierra Madre
+Movie title: Unforgiven
+Movie title: Der Untergang
+Movie title: Die Hard
+Movie title: Heat
+Movie title: Raging Bull
+Movie title: The Third Man
+Movie title: Bacheha-Ye aseman
+Movie title: The Great Escape
+Movie title: Ikiru
+Movie title: Chinatown
+Movie title: El laberinto del fauno
+Movie title: Tonari no Totoro
+Movie title: Incendies
+Movie title: Ran
+Movie title: Judgment at Nuremberg
+Movie title: The Gold Rush
+Movie title: El secreto de sus ojos
+Movie title: Hauru no ugoku shiro
+Movie title: Inside Out
+Movie title: On the Waterfront
+Movie title: The Bridge on the River Kwai
+Movie title: Det sjunde inseglet
+Movie title: Room
+Movie title: Lock, Stock and Two Smoking Barrels
+Movie title: Mr. Smith Goes to Washington
+Movie title: A Beautiful Mind
+Movie title: Casino
+Movie title: Blade Runner
+Movie title: Dunkirk
+Movie title: The Elephant Man
+Movie title: V for Vendetta
+Movie title: The Wolf of Wall Street
+Movie title: Smultronstället
+Movie title: The General
+Movie title: Warrior
+Movie title: Dial M for Murder
+Movie title: Trainspotting
+Movie title: Gran Torino
+Movie title: Gone with the Wind
+Movie title: The Deer Hunter
+Movie title: The Sixth Sense
+Movie title: Sunrise: A Song of Two Humans
+Movie title: Fargo
+Movie title: No Country for Old Men
+Movie title: The Thing
+Movie title: The Big Lebowski
+Movie title: Finding Nemo
+Movie title: Andrey Rublev
+Movie title: Tôkyô monogatari
+Movie title: Eskiya
+Movie title: There Will Be Blood
+Movie title: Cool Hand Luke
+Movie title: Idi i smotri
+Movie title: Rebecca
+Movie title: Kill Bill: Vol
+Movie title: Hacksaw Ridge
+Movie title: How to Train Your Dragon
+Movie title: Rang De Basanti
+Movie title: Mary and Max
+Movie title: Gone Girl
+Movie title: La passion de Jeanne d'Arc
+Movie title: Shutter Island
+Movie title: Into the Wild
+Movie title: Life of Brian
+Movie title: It Happened One Night
+Movie title: La La Land
+Movie title: Relatos salvajes
+Movie title: Logan
+Movie title: Platoon
+Movie title: Hotel Rwanda
+Movie title: Network
+Movie title: In the Name of the Father
+Movie title: Le salaire de la peur
+Movie title: Stand by Me
+Movie title: Rush
+Movie title: A Wednesday
+Movie title: Ben-Hur
+Movie title: The Grand Budapest Hotel
+Movie title: Persona
+Movie title: Les quatre cents coups
+Movie title: Jurassic Park
+Movie title: Salinui chueok
+Movie title: Years a Slave
+Movie title: Mad Max: Fury Road
+Movie title: Million Dollar Baby
+Movie title: Spotlight
+Movie title: Thor: Ragnarok
+Movie title: Stalker
+Movie title: The Truman Show
+Movie title: Amores perros
+Movie title: Butch Cassidy and the Sundance Kid
+Movie title: Hachi: A Dog's Tale
+Movie title: Kaze no tani no Naushika
+Movie title: Before Sunrise
+Movie title: The Princess Bride
+Movie title: The Maltese Falcon
+Movie title: Prisoners
+Movie title: Le notti di Cabiria
+Movie title: Paper Moon
+Movie title: Harry Potter and the Deathly Hallows: Part
+Movie title: Catch Me If You Can
+Movie title: Rocky
+Movie title: The Grapes of Wrath
+Movie title: Les diaboliques
+Movie title: Touch of Evil
+Movie title: Monsters, Inc
+Movie title: Gandhi
+Movie title: Donnie Darko
+Movie title: Barry Lyndon
+Movie title: The Terminator
+Movie title: Annie Hall
+Movie title: The Bourne Ultimatum
+Movie title: Groundhog Day
+Movie title: The Wizard of Oz
+Movie title: La haine
+Movie title: Munna Bhai M.B.B.S
+Movie title: Jaws
+Movie title: The Best Years of Our Lives
+Movie title: Twelve Monkeys
+Movie title: Mou gaan dou
+Movie title: Faa yeung nin wa
+Movie title: Paris, Texas
+Movie title: The Help
+Movie title: Dead Poets Society
+Movie title: Beauty and the Beast
+Movie title: Dog Day Afternoon
+Movie title: Ah-ga-ssi
+Movie title: Pirates of the Caribbean: The Curse of the Black Pearl
+Movie title: PK 
+Movie title: Tenkû no shiro Rapyuta

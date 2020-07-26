@@ -11,51 +11,51 @@ ratings.txt – гистограмма рейтингов,
 years.txt – гистограмма годов.
 """
 
-
+from collections import Counter, OrderedDict
 import re
 
 
 def create_new_file():
 
-    try:
-        with open('ratings.list', 'r') as file:
-            flag = False
-            f = open('top250.txt', 'w')
+    with open('ratings.list', 'r') as file:
+        flag = False
+        f = open('top250.txt', 'w')
 
-            for line in file:
+        for line in file:
 
-                if not flag:
-                    if line == 'New  Distribution  Votes  Rank  Title\n':
-                        flag = True
-                        continue
-                    else:
-                        continue
+            if not flag:
+                if line == 'New  Distribution  Votes  Rank  Title\n':
+                    flag = True
 
+            else:
+                if line == 'BOTTOM 10 MOVIES (1500+ VOTES)\n':
+                    break
                 else:
-                    if line == 'BOTTOM 10 MOVIES (1500+ VOTES)\n':
-                        break
-                    else:
-                        f.write(line)
-                        continue
-
-    except FileNotFoundError:
-        print('File not found')
+                    f.write(line)
 
 
 def create_years_rating_name_file():
 
     with open('top250.txt', 'r') as top:
         file_years = open('years.txt', 'w')
+        file_years.write('Гистограмма: Год: * - количество '
+                         'фильмов с таким годом\n')
         years = re.findall(r'\D\d{4}\D', top.read())
-        for el in years:
-            gistogram = f'>>>{"*" * (int(el[1:-1]) - 1895)}>>>{el[1:-1]}\n'
+        dct = Counter(years)
+        dct = OrderedDict(sorted(dct.items()))
+        for key in dct:
+            gistogram = f'{key}: {"*" * int(dct[key])}\n'
             file_years.write(str(gistogram))
 
     with open('top250.txt', 'r') as top:
         file_rating = open('rating.txt', 'w')
+        file_rating.write('Гистограмма: Оценка: * - количество '
+                          'фильмов с такой оценкой\n')
         rating = re.findall(r'\d\.\d', top.read())
-        for el in rating:
-            gistogram = f'>>>{"*" * int(float(el) * 10)} >>> {el}\n'
+        dct = Counter(rating)
+        dct = OrderedDict(sorted(dct.items()))
+        for key in rating:
+            gistogram = f'{key}: {"*" * int(dct[key])}\n'
             file_rating.write(str(gistogram))
 
     with open('top250.txt', 'r') as top:
@@ -68,5 +68,9 @@ def create_years_rating_name_file():
             file_name.write(str(movie))
 
 
-create_new_file()
+try:
+    create_new_file()
+except FileNotFoundError:
+    print('File not found')
+
 create_years_rating_name_file()

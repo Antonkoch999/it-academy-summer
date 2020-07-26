@@ -5,16 +5,14 @@
 
 
 def binary(int_):
-    lst = []
-    for degree in range(int_):
-        degree_two = 2 ** degree
-        if degree_two > int_:
-            break
-        if int_ % degree_two == 0:
-            lst.append(degree_two)
-    return max(lst)
+    counter = 0
+
+    while (int_ >> counter >= 1) and (int_ % 2 ** counter == 0):
+        counter += 1
+
+    return 2 ** (counter - 1)
 
 
 if __name__ == '__main__':
-    int_ = 16
+    int_ = 10
     print(binary(int_))
