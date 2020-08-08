@@ -55,6 +55,9 @@ class Hotel:
                 return f"Sorry, we haven't free room {type_room}"
 
         if passport_id in self.client_identification.keys():
+            """
+            Если клиент повторно обратился
+            """
             instance_room = 2
             if self.client_identification[passport_id][
                     instance_room] in self.room_dct[type_room].keys():
@@ -129,12 +132,13 @@ class Client:
 
 
 mariot = Hotel('Mariot')
-
-print('Бронируем комнату', mariot.book_a_room('Single', 'Anton', 'Kochnevski', 'AB1348908'))
+print('Бронируем комнату', mariot.book_a_room('Single', 'Anton',
+                                              'Kochnevski', 'AB1348908'))
 print(mariot.booked_a_room)
 print('Освобождаем комнату', mariot.free_a_room('Single', 1))
 print(mariot.booked_a_room)
-print('Повторное заселение', mariot.book_a_room('Single', 'Anton', 'Kochnevski', 'AB1348908'))
+print('Повторное заселение', mariot.book_a_room('Single', 'Anton',
+                                                'Kochnevski', 'AB1348908'))
 print(mariot.booked_a_room)
 print(mariot.free_a_room('Single', 1))
 print(mariot.booked_a_room)
