@@ -18,9 +18,9 @@ def func(n=0):
 
     sum_lst = 0
     for simple_number in lst:
-        for el in range(simple_number*simple_number):
-            if ((el * el) - (3 * el) - 1) % (simple_number *
-                                             simple_number) == 0:
+        for el in range(simple_number * simple_number):
+            if ((el * el) - (3 * el) - 1) % (
+                    simple_number * simple_number) == 0:
                 sum_lst += el
                 break
 

@@ -26,7 +26,7 @@ def repeat(times):
                 print(f'Функцию можно выполнить еще {times} раз')
                 return result
             except TooManyErrors:
-                return f'TooManyErrors'
+                return 'TooManyErrors'
 
         return wrapper
 

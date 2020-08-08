@@ -64,12 +64,12 @@ class Hotel:
                 instance_client = 0
                 client = self.client_identification[
                     passport_id][instance_client]
-                yes_or_no = int(input(f'Do you want to '
-                                      f'book your last room?\n'
-                                      f'Enter 1 if "YES" or 2 if "NO"\n'))
+                yes_or_no = int(input('Do you want to '
+                                      'book your last room?\n'
+                                      'Enter 1 if "YES" or 2 if "NO"\n'))
                 if yes_or_no == 1:
                     """Бронируем комнату с используя данные с прошлого
-                    бронирования. 
+                    бронирования.
                     """
                     inst_room_num = self.client_identification[
                         passport_id][instance_room]
@@ -81,7 +81,7 @@ class Hotel:
                     return find_free_room()
 
             else:
-                return f'Sorry, Your last room is currently booked'
+                return 'Sorry, Your last room is currently booked'
         else:
             """Если клиент в первый раз"""
             return find_free_room()
@@ -93,7 +93,7 @@ class Hotel:
             self.room_dct[type_room][room_number] = \
                 self.booked_a_room[type_room][room_number][room_without_client]
             del self.booked_a_room[type_room][room_number]
-            return f'Goodbye'
+            return 'Goodbye'
 
 
 class Room:
