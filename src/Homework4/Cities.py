@@ -8,24 +8,26 @@
 import random
 
 
-def cities(n, m):
+def cities(number_country, number_cities):
     dct = {}
     lst = []
+    result = []
 
-    for i in range(n):
-        input_ = input('Введите страну и города:')
-        dct[input_.split(' ')[0]] = input_.split(' ')[1:]
+    for line in range(number_country):
+        country_, *city = input('Введите страну и города:').split()
+        dct[country_] = list(city)
 
-    for i in range(m):
+    for i in range(number_cities):
         lst.append(random.choice(random.choice(list(dct.values()))))
     print(lst)
     for city in lst:
         for key, value in dct.items():
             if city in value:
-                print(key)
-    return ' '
+                result.append(key)
+
+    return result
 
 
 if __name__ == '__main__':
-    n, m = 2, 3
-    print(cities(n, m))
+    number_country, number_cities = 2, 3
+    print(cities(number_country, number_cities))
